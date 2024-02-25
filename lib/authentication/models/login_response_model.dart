@@ -5,6 +5,7 @@ LoginResponseModel loginResponseModelFromJson(String str) => LoginResponseModel.
 
 String loginResponseModelToJson(LoginResponseModel data) => json.encode(data.toJson());
 
+
 class LoginResponseModel {
   String? firstName;
   String? lastName;
